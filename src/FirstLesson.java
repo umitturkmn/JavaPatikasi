@@ -12,6 +12,7 @@ public class FirstLesson {
         //Biiznillah...
 
 
+
         int numberOne = 10, numberTwo;
         System.out.println(numberOne);
         numberTwo = 33;
