@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HesapMakinası {
+public class HesapMakinasi {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double a, b, toplama, cikarma, bolme, carpma;
