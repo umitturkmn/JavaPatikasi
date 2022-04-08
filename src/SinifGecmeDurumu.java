@@ -33,8 +33,9 @@ public class SinifGecmeDurumu {
         double avarage = (mat + fizik + kimya + turkce + muzik) / 5;
         if (avarage > 55){
             System.out.println("Tebrikler sınıfı geçtiniz...");
+            System.out.println("Ortalamanız: " + avarage);
         } else {
-            System.out.println("Yazık size. Kaldınız...");
+            System.out.println("Yazık size. Kaldınız...\nOrtalamanız: " + avarage);
         }
 
 
