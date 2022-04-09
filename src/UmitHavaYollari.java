@@ -27,17 +27,21 @@ public class UmitHavaYollari {
                     finPrice = finPrice * 0.5;
                     System.out.print("Sayın " + nameSurname + "\n12 yaşından küçük olduğunuz için %50 indirim yapılmıştır.");
                     System.out.println("Toplam " + km + " KM yol için " + finPrice + " Türk Lirası ödemeniz gerekmektedir.");
+                    break;
                 } else if (age > 12 && age <= 24) {
                     finPrice = finPrice - (finPrice * 0.1);
                     System.out.print("Sayın " + nameSurname + "\n12-24 yaş aralığında olduğunuz için %10 indirim yapılmıştır.");
                     System.out.println("Toplam " + km + " KM yol için " + finPrice + " Türk Lirası ödemeniz gerekmektedir.");
+                    break;
                 } else if (age >= 65) {
                     finPrice = finPrice - (finPrice * 0.3);
                     System.out.print("Sayın " + nameSurname + "\n65 yaşından büyük olduğunuz için %30 indirim yapılmıştır.");
                     System.out.println("Toplam " + km + " KM yol için " + finPrice + " Türk Lirası ödemeniz gerekmektedir.");
+                    break;
                 } else {
                     System.out.print("Sayın " + nameSurname + "\nHerhangi bir indirimden faydalanamıyorsunuz. Malasef...");
                     System.out.println("Toplam " + km + " KM yol için " + finPrice + " Türk Lirası ödemeniz gerekmektedir.");
+                    break;
                 }
             case 2:
                 if (age <= 12) {
@@ -45,20 +49,24 @@ public class UmitHavaYollari {
                     System.out.print("Sayın " + nameSurname + "\n12 yaşından küçük olduğunuz için %50 indirim yapılmıştır.");
                     System.out.println("Gidiş-Dönüş seçtiğiniz için ekstra % 20 indirim daha uygulanmıştır.");
                     System.out.println("Toplam " + km + " KM yol için " + finPrice * 2 + " Türk Lirası ödemeniz gerekmektedir.");
+                    break;
                 } else if (age > 12 && age <= 24) {
                     finPrice = finPrice - (finPrice * 0.1); finPrice = finPrice-(finPrice*0.2);
                     System.out.print("Sayın " + nameSurname + "\n12-24 yaş aralığında olduğunuz için %10 indirim yapılmıştır.");
                     System.out.println("Gidiş-Dönüş seçtiğiniz için ekstra % 20 indirim daha uygulanmıştır.");
                     System.out.println("Toplam " + km + " KM yol için " + finPrice * 2 + " Türk Lirası ödemeniz gerekmektedir.");
+                    break;
                 } else if (age >= 65) {
                     finPrice = finPrice - (finPrice * 0.3); finPrice = finPrice-(finPrice*0.2);
                     System.out.print("Sayın " + nameSurname + "\n65 yaşından büyük olduğunuz için %30 indirim yapılmıştır.");
                     System.out.println("Gidiş-Dönüş seçtiğiniz için ekstra % 20 indirim daha uygulanmıştır.");
                     System.out.println("Toplam " + km + " KM yol için " + finPrice * 2 + " Türk Lirası ödemeniz gerekmektedir.");
+                    break;
                 } else {
                     finPrice = finPrice - (finPrice * 0.2);
                     System.out.println("Gidiş-Dönüş seçtiğiniz için ekstra % 20 indirim daha uygulanmıştır.");
                     System.out.println("Toplam " + km + " KM yol için " + finPrice * 2 + " Türk Lirası ödemeniz gerekmektedir.");
+                    break;
                 }
         }
 
