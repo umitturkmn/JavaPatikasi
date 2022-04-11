@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class İkininKuvvetleri {
+public class IkininKuvvetleri {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int a,total=0;
