@@ -5,7 +5,7 @@ public class DiziOrtalamasi {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int sum = 0, emp,counter=0;
-        double result;
+        double avarage;
         System.out.print("Kaç elamanlı bir dizi istiyorsunuz: ");
         emp = input.nextInt();
         int[] simpleArray = new int[emp];
@@ -21,8 +21,8 @@ public class DiziOrtalamasi {
         for (int i = 0; i < simpleArray.length; i++) {
             sum += simpleArray[i];
         }
-        result = sum / simpleArray.length;
-        System.out.println("Dizinin Ortalaması: " + result);
+        avarage = sum / simpleArray.length;
+        System.out.println("Dizinin Ortalaması: " + avarage);
 
     }
 }
